@@ -1,0 +1,54 @@
+---
+title: "Test Flex Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+library(dplyr)
+library(here)
+
+# load cvap race/eth data
+cvap_race <- read.csv(here("data", "CVAP_2018_RaceEth.csv"))
+
+
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Counties with Top POC Eligible Voting Population  
+
+```{r}
+cvap_race %>% 
+  top_n(15, prc_cvap) %>% 
+  ggplot(aes(x=reorder(geoname, prc_cvap), y=prc_cvap, fill=lntitle)) +
+  geom_bar(stat = "identity", width = 0.5) +
+  scale_y_continuous(labels = scales::percent) +
+  ylab("Percent of Total CVAP")+
+  coord_flip() +
+  theme_minimal()
+
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
