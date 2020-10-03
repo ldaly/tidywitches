@@ -1,0 +1,55 @@
+county,year,election_type,office,office_2,winning_vote_count,losing_vote_count,potential_party_flip,winner_party,notes,source
+Kings,2018,Statewide Primary Election,Supervisor,1st District,1545,1000,non,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Supervisor,3rd District,2262,1266,non,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Supervisor,4th District,2471,,non,,not contested,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Proposition,68,9518,6253,,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Proposition,69,11390,4414,,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Proposition,70,9590,5858,,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Proposition,71,10734,4724,,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Proposition,72,11786,3856,,,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide Primary Election,Board of Equalization,District 1,5463,4562,yes,REP,,https://www.countyofkings.com/home/showdocument?id=19291
+Kings,2018,Statewide General Election,County Board of Education,Area 3,3930,1359,non,,,https://www.countyofkings.com/home/showdocument?id=19648
+Kings,2018,Statewide General Election,County Board of Education,Area 4,4715,3020,non,,,https://www.countyofkings.com/home/showdocument?id=19648
+Kings,2018,Statewide General Election,Proposition,2,15199,14480,,,,https://www.countyofkings.com/home/showdocument?id=19648
+Kings,2018,Statewide General Election,Proposition,3,15223,14134,,,,https://www.countyofkings.com/home/showdocument?id=19648
+Kings,2018,Statewide General Election,Proposition,7,15831,13531,,,,https://www.countyofkings.com/home/showdocument?id=19648
+San Joaquin,2018,Statewide Primary Election,Proposition,68,50015,53054,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,US Representative Dist,10,34553,30609,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,SJ Delta Community College Trustee Area No. 4,78414,76225,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Yosemite Community College Trustee Area No. 1,64,43,,,only 1 precinct,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Stockton Unified School District No. 5,1883,1809,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Stockton Unified School District No. 6,1990,1889,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Stockton Unified School District No. 7,2522,2346,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Lincoln Unified School District No. 1,2138,1203,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Manteca Unified School District No. 4,2870,1849,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Manteca Unified School District No. 5,2256,1614,,,5 precincts,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Escalon Unified School District No. 1,526,306,,,7 precincts,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Escalon Unified School District No. 2,505,373,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,School Board Member,Tracy Unified School District Board Member,14650,12531,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,City Council,Stockton District 3,6256,5231,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,City Council,Stockton District 5,3789,3315,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,Mayor,Manteca,12042,10988,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,City Council,Manteca City Council,9934,9377,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,Mayor,Tracy,13433,12356,,,,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Joaquin,2018,Statewide General Election,City Council,Tracy City Council,10100,8371,,,countywide election--all precincts report,https://opendata.sjgov.org/dataset/2018-november-general-election/resource/22e9901e-d234-4fc5-9adf-dd81157439ef
+San Bernardino,2018,Statewide General Election,State Assembly,District 55,14209,12252,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,State Assembly,District 41,18473,16525,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,"San Bernardino Community College District, Area 6",10761,10488,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Victor Valley Community College District Area 2,8280,5709,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Victor Valley Community College District Area 5,11448,8573,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Apple Valley Unified School District Area 2,1397,1261,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Apple Valley Unified School District Area 4,1836,1711,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Apple Valley Unified School District Area 5,2943,2900,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Bear Valley Unified School District,3458,3082,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Colton Joint Unified School District Area 1,10608,10369,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Cooper Mountain Community College District,9935,8726,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Morongo Unified School District Area 4,2390,1476,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Morongo Unified School District Area 5,1686,1505,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Morongo Unified School District,7394,7057,,,countywide--all precincts reporting,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,Mayor,Adelanto,1539,1239,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Ontario-Montclair School District Area 3,2993,2371,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide General Election,School Board Member,Ontario-Montclair School District Area 5,1759,1388,,,,https://www.sbcounty.gov/rov/elections/results/20181106/default.html
+San Bernardino,2018,Statewide Primary Election,State Assembly,District 42,7832,6130,,,,http://www.sbcounty.gov/rov/elections/results/20180605/default.html
+San Bernardino,2018,Statewide Primary Election,City Council,Adelanto,899,549,,,,http://www.sbcounty.gov/rov/elections/results/20180605/default.html
+San Bernardino,2018,Statewide Primary Election,City Council,Loma Linda,1713,1415,,,,http://www.sbcounty.gov/rov/elections/results/20180605/default.html
+San Bernardino,2018,Statewide Primary Election,Mayor,San Bernardino,6747,5243,,,,http://www.sbcounty.gov/rov/elections/results/20180605/default.html
