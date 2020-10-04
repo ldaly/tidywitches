@@ -9,12 +9,12 @@ Data Sources:
 - Parolees released from state prison by county came from the California Department of Corrections and Rehabilitation Offender Data Points reports for 2016 and 2018. We then took a four year average (2015-2018) to smooth out any one-year irregularities.
 - Parolee total estimated for each county: Scraped data from CDCR pdf reports 2016-2018 for total parolees at the state level. In R, calculated a weighted average to estimate the number of parolees at the county level using the 4-year average share of parolees released to each county each year. 
 
-CDCR links:
-2017-2018
-https://www.cdcr.ca.gov/research/wp-content/uploads/sites/174/2020/01/201812_DataPoints.pdf
++ CDCR links:
++ 2017-2018
++ https://www.cdcr.ca.gov/research/wp-content/uploads/sites/174/2020/01/201812_DataPoints.pdf
 
-2015-2016
-https://www.cdcr.ca.gov/research/wp-content/uploads/sites/174/2019/08/DataPoints_122016.pdf
++ 2015-2016
++ https://www.cdcr.ca.gov/research/wp-content/uploads/sites/174/2019/08/DataPoints_122016.pdf
 
 - Eligible Voter Population: Citizen Voting Age Population (CVAP) ACS 2014-2018 5-year estimates. Downloaded from the US Census Bureau and prepared in R.
 link: https://www.census.gov/programs-surveys/decennial-census/about/voting-rights/cvap.html
