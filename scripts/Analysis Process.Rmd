@@ -1,0 +1,118 @@
+---
+title: "Analysis Process"
+author: "draft"
+date: "10/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message=FALSE, dpi=300)
+
+```
+
+```{r}
+# Analyze election/parolee data 
+# Find local elections where parolee voting rights could swing the vote
+
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(highcharter)
+library(DT)
+library(here)
+
+# load election data
+elec <- read.csv(here("data/local elections.csv"), stringsAsFactors = FALSE)
+
+# load county parolee estimates
+par <- read.csv(here("data/Ratio_Parolees_to_EligibleVoters.csv"), stringsAsFactors = FALSE)
+```
+  
+```{r}
+
+# calc diff btwn winning candidate and losing/2nd place candidate
+elec$diff <- elec$winning_vote_count - elec$losing_vote_count
+
+# join parolee tot to county election data
+dat <- 
+elec %>% 
+  filter(office !="Proposition" & !is.na(diff)) %>% 
+  left_join(par, by=c("county"="County")) %>% 
+  mutate(flag = ifelse(par_tot_est >= diff, "parolee count exceeds margin", "no"),
+         flag_wide = ifelse(par_tot_est >= diff - 100, "parolee count within 100", "no"))
+
+# export data
+write.csv(dat, here("data/LocalElections_Prop17_Voters.csv"), row.names = FALSE)
+
+```
+  
+Does the number of parolees living in the county equal or match the number of votes that won the election?
+```{r}
+table(dat$flag, dat$county)
+```
+
+
+Does the number of parolees living in the county come within 100 votes of the winning number? (i.e. close call, could swing)
+```{r}
+table(dat$flag_wide, dat$county)
+```
+
+### Estimated Number of Parolees Living in Each County  
+  
+#### County Map
+    
+```{r}
+
+```
+  
+    
+#### Table   
+  
+```{r}
+
+datatable(par %>% 
+            select(-c(cvap_moe, ratio_par_cvap)) %>% 
+            rename("Estimated Number of Parolees" = par_tot_est,
+                   "Estimated Number of Eligible Voters" = cvap_est,
+                   "Parolees per 100k Eligible Voters" = rate_per_100kcvap),
+          rownames = FALSE) %>% 
+  formatRound(c(2, 3, 4), 0) 
+
+
+```
+   
+
+### Which elections could be most influeced by parolee voting rights?  
+  
+* In the data we collected, local school board elections were most frequently the elections that were won by margins smaller than the number of would-be parolee voters.  
+  
+```{r}
+library(kableExtra)
+
+dat %>% 
+  filter(flag_wide !="no") %>% 
+  group_by(office) %>% 
+  summarize(count = length(county)) %>% 
+  arrange(-count) %>% 
+   kbl() %>%
+  kable_minimal(full_width = F)
+
+
+```
+  
+### Which elections were won by margins that are less than/close to the number of parolees who could be eligible to vote if Prop 17 passes?  
+  
+```{r fig.height=9, fig.width=9.5}
+
+dat %>% 
+  filter(flag_wide != "no") %>% 
+  mutate(name = paste0(office, " ", office_2)) %>% 
+  ggplot(aes(x = reorder(name, diff), y = diff, fill=county)) +
+  geom_bar(stat="identity") +
+  xlab("")+
+  ylab("Vote Difference between Winning and Losing Position")+
+  coord_flip() +
+  theme_minimal()
+
+```
+  
