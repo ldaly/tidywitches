@@ -3,12 +3,12 @@ library(data.table)
 library(dplyr)
 library(ggplot2)
 library(here)
-usethis::use_git()
 
 
-elec <- read.csv("data/local_elections.csv", stringsAsFactors = FALSE)
+elec <- read.csv("data/local elections.csv", stringsAsFactors = FALSE)
 head(elec)
 str(elec)
+table(elec$county)
 
 elec <- 
   elec %>% 

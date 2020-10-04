@@ -113,7 +113,8 @@ par_county %>%
     cvap_tot %>% 
       mutate(County = gsub(" County, California", "", geoname)) %>% 
       select(County, cvap_est, cvap_moe)) %>% 
-  mutate( ratio_par_cvap = par_tot_est/cvap_est)
+  mutate( ratio_par_cvap = par_tot_est/cvap_est,
+          rate_per_100kcvap = par_tot_est/(cvap_est/100000))
 
 head(ratio_dat)
 View(ratio_dat)
