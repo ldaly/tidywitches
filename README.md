@@ -5,6 +5,9 @@ We explored data relating to Prop 17, which would amend the California constitut
 
 While California has a huge population, there are many local elections in smaller-population counties where election outcomes are determined by a small number of votes. We were therefore interested in researching how many people are on parole in each county and how the restoration of their voting rights could potentially influence elections. We focused the 2018 election, and on five counties with high numbers of parolees living in-county and/or high rates of parolee per 100k eligible voters: Fresno, Kings, Yuba, San Joaquin and San Bernardino.
 
+View our visualization here:
+https://ldaly.github.io/tidywitches/prop17_tidywitches.html
+
 Data Sources:
 - Parolees released from state prison by county came from the California Department of Corrections and Rehabilitation Offender Data Points reports for 2016 and 2018. We then took a four year average (2015-2018) to smooth out any one-year irregularities.
 - Parolee total estimated for each county: Scraped data from CDCR pdf reports 2016-2018 for total parolees at the state level. In R, calculated a weighted average to estimate the number of parolees at the county level using the 4-year average share of parolees released to each county each year. 
