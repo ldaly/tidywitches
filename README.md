@@ -8,10 +8,10 @@ Repository for the [CA 2020 Election Data Challenge](https://datalab.ucdavis.edu
 **Authors:** Laura Daly, Erica Orcutt, Sarah Byer
   
 *Interact with our Prop 17 Data Visualization [HERE](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)*
-
-We explored data relating to Prop 17, which would amend the California constitution to restore voting rights to people who have committed serious or violent crimes, who have been released from state prison but are now under state supervision (parole). Currently voting rights are restored after a person is released from state prison and has served their parole.
-
+  
 **Research Question**
+We explored data relating to Prop 17, which would amend the California constitution to restore voting rights to people who have committed serious or violent crimes, who have been released from state prison but are now under state supervision (parole). Currently voting rights are restored after a person is released from state prison and has served their parole.
+  
 While California has a huge population, there are many local elections in counties with smaller (eligible voter) populations where election outcomes are determined by a small number of votes. We were therefore interested in researching **how many people are on parole in each county and how the restoration of their voting rights could potentially influence local elections.** We focused the 2018 election, and on five counties with high numbers of parolees living in-county and/or high rates of parolee per 100k eligible voters: Fresno, Kings, Yuba, San Joaquin and San Bernardino.
 
 **Conclusion**
