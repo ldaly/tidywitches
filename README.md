@@ -15,8 +15,7 @@ We found that in 2018 there were many local election contests that could have be
 
 While we know that there is no guarantee all parolees would vote in elections--just like the general population. However, if parolees are not eligible to vote, no campaign or organization is going to spend time/resources doing voter outreach to them. Campaigns spend time trying to activate eligible voters that could sway the election in their favor–these local elections demonstrate that parolee voters could make a difference. Even more importantly, parolees who are eligible voters have "done their time" and deserve access to their civil rights. The local election contests in which parolee voters could make a difference are those that sometimes have the most influence on one's daily life and family, such as school board elections. Continuing to disenfranchise people after they have returned to their community also has ripple effects on suppressing civic engagement across the community (Burch 2014). [Twenty other states](https://www.ncsl.org/research/elections-and-campaigns/felon-voting-rights.aspx) allow parolees to vote. California is behind on this issue, and it's time to catch up.
 
-**[View our visualization here]**
-(https://ldaly.github.io/tidywitches/prop17_tidywitches.html)
+**[View our visualization here](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)**
 
 **Data Sources:**
 - Parolees released from state prison by county came from the California Department of Corrections and Rehabilitation Offender Data Points reports for 2016 and 2018. We then took a four year average (2015-2018) to smooth out any one-year irregularities.
