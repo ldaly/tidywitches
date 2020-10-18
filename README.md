@@ -1,11 +1,11 @@
 # tidywitches
 Repository for the [CA 2020 Election Data Challenge](https://datalab.ucdavis.edu/ca-election-2020-data-challenge/)
   
-**Prop 17: Restoring Voting Rights for Parolees Could Influence Local Elections**
+**Project:** Influence of Parolee Voter Enfranchisement on Local Elections
     
-Team install.packages("tidywitches")**  
+**Team** install.packages("tidywitches")
   
-*Authors:* Laura Daly, Erica Orcutt, Sarah Byer
+*Laura Daly, Erica Orcutt, Sarah Byer*
   
 *Interact with our Prop 17 Data Visualization [HERE](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)*
 
