@@ -1,5 +1,5 @@
 # tidywitches
-Repository for the CA 2020 Election Data Challenge, Team install.packages("tidywitches").
+Repository for the [CA 2020 Election Data Challenge](https://datalab.ucdavis.edu/ca-election-2020-data-challenge/), Team install.packages("tidywitches").
 
 *Interact with our Prop 17 Data Visualization [HERE](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)*
 
