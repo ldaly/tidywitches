@@ -1,9 +1,10 @@
 # tidywitches
-Repository for the [CA 2020 Election Data Challenge](https://datalab.ucdavis.edu/ca-election-2020-data-challenge/), Team install.packages("tidywitches").
+Repository for the [CA 2020 Election Data Challenge](https://datalab.ucdavis.edu/ca-election-2020-data-challenge/)
 
-*Interact with our Prop 17 Data Visualization [HERE](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)*
-
+Team install.packages("tidywitches")
 **Authors:** Laura Daly, Erica Orcutt, Sarah Byer
+  
+*Interact with our Prop 17 Data Visualization [HERE](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)*
 
 We explored data relating to Prop 17, which would amend the California constitution to restore voting rights to people who have committed serious or violent crimes, who have been released from state prison but are now under state supervision (parole). Currently voting rights are restored after a person is released from state prison and has served their parole.
 
