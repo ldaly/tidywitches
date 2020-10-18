@@ -58,10 +58,12 @@ link: https://www.census.gov/programs-surveys/decennial-census/about/voting-righ
 
 - *Data Limitations:* Parolee data is not available at a smaller geography than county-level. CVAP estimates are known to be unstable with small populations. Some local elections are district-based, so not everyone in the county/city would be eligible to vote in those elections. Because we have no way to know where in each county parolees live, we tried to select local elections with more participating precincts so that the probability of parolee participation is greater. Some of the district-based elections are at-large seats in which all local voters were eligible to participate. 
 
-**References**
-Traci R. Burch. Effects of Imprisonment and Community Supervision on Neighborhood Political Participation in North Carolina. 2014.
+**References:**  
+Burch, Traci R. (2014) Effects of Imprisonment and Community Supervision on Neighborhood Political Participation in North Carolina.
 
-Justin Goss and Joseph Hayes. California’s Changing Parole Population. 2018. https://www.ppic.org/publication/californias-changing-parole-population/
-
-National Conference of State Legislatures. Felon Disenfranchisement. https://www.ncsl.org/research/elections-and-campaigns/felon-voting-rights.aspx
+Goss, Justin and Hayes, Joseph. (2018) California’s Changing Parole Population. Public Policy Institute of California. https://www.ppic.org/publication/californias-changing-parole-population/
+  
+Uggen, C., Larson, R., and Shannon, S. (2016) 6 Million Lost Voters: State-Level Estimates of Felony Disenfranchisement, 2016. The Sentencing Project, https://www.sentencingproject.org/publications/6-million-lost-voters-state-level-estimates-felony-disenfranchisement-2016/ 
+  
+Felon Disenfranchisement, National Conference of State Legislatures. https://www.ncsl.org/research/elections-and-campaigns/felon-voting-rights.aspx
 
