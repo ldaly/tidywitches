@@ -50,7 +50,7 @@ https://www.yuba.org/departments/elections/2018NovResults.php
 Fresno County: 
 https://www.co.fresno.ca.us/departments/county-clerk-registrar-of-voters/election-information/election-results/2018-november-general-election-results
 
-- Limitations: Parolee data not available at a smaller geography. CVAP estimates known to be unstable with small populations. 
+- *Data Limitations:* Parolee data not available at a smaller geography. CVAP estimates known to be unstable with small populations. Some local elections are district-based, so not everyone in the county/city would be eligible to vote in those elections. Because we have no way to know where in each county parolees live (that data is not public), we tried to select local elections in more participating precincts so that the probability of parolee participation is greater. Some of the district-based elections are at-large seats in which all local voters were eligible to participate. 
 
 **References**
 Traci R. Burch. Effects of Imprisonment and Community Supervision on Neighborhood Political Participation in North Carolina. 2014.
