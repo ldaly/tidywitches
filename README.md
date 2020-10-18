@@ -3,9 +3,9 @@ Repository for the [CA 2020 Election Data Challenge](https://datalab.ucdavis.edu
   
 **Project:** Influence of Parolee Voter Enfranchisement on Local Elections
     
-**Team** install.packages("tidywitches")
+**Team:** install.packages("tidywitches")
   
-*Laura Daly, Erica Orcutt, Sarah Byer*
+**Authors:** Laura Daly, Erica Orcutt, Sarah Byer
   
 *Interact with our Prop 17 Data Visualization [HERE](https://ldaly.github.io/tidywitches/prop17_tidywitches.html)*
 
